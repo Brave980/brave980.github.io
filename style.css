@@ -1,9 +1,47 @@
-h1 {
-    color: #E27d60; 
+@import url('https://fonts.googleapis.com/css?family=noto+serif+sc');
+/* 
+#05386B navy
+#379683 dark green
+#5CDB95 mint green
+#8EE4AF light mint green
+#EDF5E1 white
+
+
+
+*/
+
+#title {
+    color: #EDF5E1; 
     font-size: 10em;
+    font-weight: 900;
+    font-family: 'noto serif sc';
 
 }
 
 header {
     text-align: center;
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 100px; 
+}
+a:link,
+a:visited {
+    color: #05386B;
+} 
+a:hover {
+    color: #379683;
+}
+
+
+body {
+    background-color: #5CDB95;
+
+}
+
+footer {
+    text-align: center;
+    color: #05386B; 
 }
